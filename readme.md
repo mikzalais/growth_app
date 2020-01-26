@@ -8,8 +8,8 @@
   - [x] username, full name, email
 - [x] Logout
 2. Welcome page
-- [ ] general page template with twig
-  - [ ] page name, User's full name, Logout option
+- [x] general page template with twig
+  - [x] page name, User's full name, Logout option
 3. Data API
 - [ ] Check access to endpoint (session?!)
 - [ ] Data loading endpoint
@@ -51,5 +51,5 @@
 - [x] LoginController
 - [x] WelcomeController
 - [ ] DataController
-- [ ] NewProductController
-- [ ] SalesController
+- [x] NewProductController
+- [x] SalesController

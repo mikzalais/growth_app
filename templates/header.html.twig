@@ -1,0 +1,6 @@
+<div class="header">
+    <div><strong>{{ page_title }}</strong></div>
+    <div>{{ app.session.get('fullname') }}</div>
+    <div><a href="{{ path('welcome') }}">Home</a></div>
+    <div><a href="{{ path('app_logout') }}">Logout</a></div>
+</div>
