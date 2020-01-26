@@ -3,10 +3,10 @@
 ## Progress
 
 1. Login page and logout
-- [ ] Mock validation
-- [ ] Store data in session
-  - [ ] username, full name, email
-- [ ] Logout
+- [x] Mock validation
+- [x] Store data in session
+  - [x] username, full name, email
+- [x] Logout
 2. Welcome page
 - [ ] general page template with twig
   - [ ] page name, User's full name, Logout option
@@ -48,8 +48,8 @@
 
 ## Notes
 ### Controllers
-- [ ] LoginController
-- [ ] WelcomeController
+- [x] LoginController
+- [x] WelcomeController
 - [ ] DataController
 - [ ] NewProductController
 - [ ] SalesController
