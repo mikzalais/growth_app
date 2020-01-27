@@ -12,8 +12,8 @@
   - [x] page name, User's full name, Logout option
 3. Data API
 - [ ] Check access to endpoint (session?!)
-- [ ] Data loading endpoint
-- [ ] Data storing endpoint
+- [x] Data loading endpoint
+- [x] Data storing endpoint
 4. New product page form and validation
 - [ ] Front end validation? HTML5 right?
 - [ ] POST form to backend (ajax!)
@@ -50,6 +50,6 @@
 ### Controllers
 - [x] LoginController
 - [x] WelcomeController
-- [ ] DataController
+- [x] DataController
 - [x] NewProductController
 - [x] SalesController
