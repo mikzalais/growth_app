@@ -13,7 +13,7 @@ class NewProductController extends AbstractController
      */
     public function index()
     {
-      $form = $this->createFormBuilder()
+      $form = $this->createFormBuilder(null, ['attr' => ['id' => 'product-form']])
         ->setAction($this->generateUrl('data_store'))
         ->add('product', ProductType::class)
         ->getForm();

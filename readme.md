@@ -21,10 +21,10 @@
 - [x] Clear button
 
 5. Sales page (front end or backend?):
-- [ ] load json through API
-- [ ] put stuff in the table (front end library?)
-- [ ] calculate total sales value (Javascript)
-- [ ] data sorting (library?)
+- [x] load json through API
+- [x] put stuff in the table (front end library?)
+- [x] calculate total sales value (Javascript)
+- [x] data sorting (library?)
 
 ## Research
  - [x] Using database (not required)
@@ -41,10 +41,10 @@
    - [ ] Ajax forms
  - [x] Back end validation
  - [x] Using Bootstrap
-   - [ ] Get Bootstrap locally
- - [ ] Front end library for table
+   - [x] Get Bootstrap locally
+ - [x] Front end library for table
  - [ ] Check out API Platform
- - [ ] Deployment
+ - [x] Deployment
 
 ## Notes
 ### Controllers
