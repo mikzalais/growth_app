@@ -14,17 +14,15 @@ const $ = require('jquery');
 require('bootstrap');
 require('bootstrap-table');
 
-// require('es.object.values');
-
 $(function() {
 
   $("#product-form").on("submit", function (e) {
     e.preventDefault();
 
-    var product_name = $('#form_product_product_name').val();
-    var product_id = $('#form_product_product_id').val();
-    var product_manager = $('#form_product_product_manager').val();
-    var sales_start_data = $('#form_product_sales_start_data').val();
+    var product_name = $('#form_product_name').val();
+    var product_id = $('#form_product_id').val();
+    var product_manager = $('#form_product_manager').val();
+    var sales_start_data = $('#form_sales_start_data').val();
     var data = {
       'product_name': product_name,
       'product_id': product_id,
@@ -87,10 +85,8 @@ $(function() {
         'title' : loaded_columns[3].header,
         'sortable' : true
       };
-      console.log(columns);
 
       var data = Object.values(loaded_data.data);
-      console.log(data);
 
       for (let [key, value] of Object.entries(data)) {
         data[key].totalSales = data[key].salesQ1 + data[key].salesQ2 + data[key].salesQ3 + data[key].salesQ4;
