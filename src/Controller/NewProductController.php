@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
+use app\Form\ProductType;
 
 class NewProductController extends AbstractController
 {
@@ -12,8 +13,14 @@ class NewProductController extends AbstractController
      */
     public function index()
     {
+      $form = $this->createFormBuilder()
+        ->setAction($this->generateUrl('data_store'))
+        ->add('product', ProductType::class)
+        ->getForm();
+
         return $this->render('new_product/index.html.twig', [
             'controller_name' => 'NewProductController',
+            'form' => $form->createView(),
         ]);
     }
 }

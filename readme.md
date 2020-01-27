@@ -15,10 +15,10 @@
 - [x] Data loading endpoint
 - [x] Data storing endpoint
 4. New product page form and validation
-- [ ] Front end validation? HTML5 right?
-- [ ] POST form to backend (ajax!)
-- [ ] Show request result
-- [ ] Clear button
+- [x] Front end validation? HTML5 right?
+- [x] POST form to backend (ajax!)
+- [x] Show request result
+- [x] Clear button
 
 5. Sales page (front end or backend?):
 - [ ] load json through API
