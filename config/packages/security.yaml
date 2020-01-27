@@ -27,5 +27,7 @@ security:
     access_control:
         - { path: ^/login$, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/welcome, roles: ROLE_USER }
-#        - other pages
-#        - data endpoints
+        - { path: ^/sales, roles: ROLE_USER }
+        - { path: ^/new/product, roles: ROLE_USER }
+        - { path: ^/data/load, roles: ROLE_USER }
+        - { path: ^/data/store, roles: ROLE_USER }
